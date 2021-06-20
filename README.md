@@ -6,6 +6,7 @@
 ### Concept
 To prove my guess, on the earth there is no alien or all aliens. There are three "instances" A, B and C who could be either human beings or alien, if A and B are communicating in alien language, and so do A and C next, then B and C will communicate in alien language too. Its mathematics description is, given N vertices (∀Vi ∈[0,1,...N-1]), two players start drawing lines with two different colors (black or white) in rotation following a simple rule, that is, if two edges of a triangle are painted with the same color(Cm, ∈[0,1]), the third edge will be painted in this color too. Here is an example with N=5.
 
+```
 STEP 1 [Player 1] 0,2 black
 Player 1 (0,2)
 Player 2
@@ -27,6 +28,7 @@ Player 2 (0,1)(2,3)
 STEP 8 [Player 1] 0,3 black
 Player 1 (0,2)(1,3)(1,4)(3,4)(0,3)(2,3)(0,1)(0,4)(1,2)(2,4) black
 Player 2 white
+```
 (done！)
 
 ## My conjecture consists of three parts:
