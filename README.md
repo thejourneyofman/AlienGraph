@@ -4,30 +4,34 @@
 ### #evolutionary theory #graph theory #game theory
 
 ### Concept
-To prove my guess, on the earth there is no alien or all aliens. There are three "instances" A, B and C who could be either human beings or alien, if A and B are communicating in alien language, and so do A and C next, then B and C will communicate in alien language too. Its mathematics description is, given N vertices (∀Vi ∈[0,1,...N-1]), two players start drawing lines with two different colors (black or white) in rotation following a simple rule, that is, if two edges of a triangle are painted with the same color(Cm, ∈[0,1]), the third edge will be painted in this color too. Here is an example with N=5.
+To prove my guess, on the earth there is no alien or all aliens. There are three "instances" A, B and C who could be either human beings or alien, if A and B are communicating in alien language, and so do A and C next, then B and C will communicate in alien language too. Its mathematics description is, given N vertices (∀Vi ∈[0,1,...N-1]), two players start drawing lines with two different colors (green or red) in rotation following a simple rule, that is, if two edges of a triangle are painted with the same color(Cm, ∈[0,1]), the third edge will be painted in this color too. Here is a few examples with N=5.
+
+![green is winner](https://github.com/thejourneyofman/AlienGraph/blob/main/images/green_win.gif)
+![red is winner](https://github.com/thejourneyofman/AlienGraph/blob/main/images/red_win.gif)
+
 
 ```
-STEP 1 [Player 1] 0,2 black
+STEP 1 [Player 1] 0,2 green
 Player 1 (0,2)
 Player 2
-STEP 2 [Player 2] 3,4 white
+STEP 2 [Player 2] 3,4 red
 Player 1 (0,2)
 Player 2 (3,4)
-STEP 3 [Player 1] 1,3 black
+STEP 3 [Player 1] 1,3 green
 Player 1 (0,2)(1,3)
 Player 2 (3,4)
-STEP 4 [Player 2] 0,1 white
+STEP 4 [Player 2] 0,1 red
 Player 1 (0,2)(1,3)
 Player 2 (3,4)(0,1)
-STEP 5 [Player 1] 1,4 black
+STEP 5 [Player 1] 1,4 green
 Player 1 (0,2)(1,3)(1,4)(3,4)
 Player 2 (0,1)
-STEP 6 [Player 2] 2,3 white
+STEP 6 [Player 2] 2,3 red
 Player 1 (0,2)(1,3)(1,4)(3,4)
 Player 2 (0,1)(2,3)
-STEP 8 [Player 1] 0,3 black
-Player 1 (0,2)(1,3)(1,4)(3,4)(0,3)(2,3)(0,1)(0,4)(1,2)(2,4) black
-Player 2 white
+STEP 8 [Player 1] 0,3 green
+Player 1 (0,2)(1,3)(1,4)(3,4)(0,3)(2,3)(0,1)(0,4)(1,2)(2,4) green
+Player 2 null red
 ```
 (done！)
 
