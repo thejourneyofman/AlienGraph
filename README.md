@@ -44,3 +44,6 @@ Player 2 null red
 ## Bonus:
 ### 1, Prove its infinite version, where the number of verticies is infinite.
 ### 2, Prove its high dimensional version, where its dimension is greater than 2.
+
+## Bonus of bonus
+### To expand the infinite version in a specific case, given that the vertices are continuously being generated as the game goes on, the number of new vertices follows a function of Increment(t) which has a power law distribution, where new chances were granted to both players but less and less, we are going to derive the probability density function of whom would be a winner, as PDF(Increment, t), where t ∈[1, ∞].
